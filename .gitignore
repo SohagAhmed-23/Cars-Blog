@@ -1,0 +1,26 @@
+# Ignore sensitive files and directories
+sites/default/settings.php
+sites/default/services.yml
+sites/default/files/
+sites/default/private/
+sites/*/settings.local.php
+
+# Ignore vendor directory if using Composer
+/vendor/
+
+# Ignore core and contributed themes and modules if using Composer to manage them
+/core/
+modules/contrib/
+themes/contrib/
+
+# Ignore temporary files and directories
+*.log
+*.tmp
+*.cache
+*.sql
+*.tar.gz
+*.zip
+
+# Ignore IDE/editor configuration files
+.idea/
+.vscode/

@@ -1,0 +1,7 @@
+teams.details:
+  path: '/teams-details'
+  defaults:
+    _controller: 'Drupal\teams\Controller\TeamsController::content'
+    _title: 'Teams Details'
+  requirements:
+    _permission: 'access content'

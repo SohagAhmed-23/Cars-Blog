@@ -1,0 +1,8 @@
+services:
+  logger.channel.teams:
+    parent: logger.channel_base
+    arguments: ['teams']
+
+  teams.default:
+    class: Drupal\teams\Service\CountryDetails
+    arguments: ['@http_client']

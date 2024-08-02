@@ -1,0 +1,8 @@
+name: 'Teams'
+type: module
+description: 'A module to show the Country list.'
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
+version: 1.0
+dependencies:
+  - drupal:node
